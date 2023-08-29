@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang='ko'>
       {/* body에 직접 폰트 스타일 적용 */}
       <Header/>
-      <body className='font-neodunggeunmo'>{children}</body>
+      <body className='font-neodunggeunmo lg:ml-60'>{children}</body>
     </html>
   );
 }
