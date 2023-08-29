@@ -1,3 +1,4 @@
+import Header from '@/components/Header';
 import './globals.css';
 import type { Metadata } from 'next';
 
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang='ko'>
       {/* body에 직접 폰트 스타일 적용 */}
+      <Header/>
       <body className='font-neodunggeunmo'>{children}</body>
     </html>
   );
