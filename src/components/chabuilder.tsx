@@ -13,10 +13,10 @@ export default function Chabuilder() {
 
   const { unityProvider, sendMessage, addEventListener, removeEventListener } =
     useUnityContext({
-      loaderUrl: 'chabuilder/build/chabuilder.loader.js',
-      dataUrl: 'chabuilder/build/chabuilder.data',
-      frameworkUrl: 'chabuilder/build/chabuilder.framework.js',
-      codeUrl: 'chabuilder/build/chabuilder.wasm',
+      loaderUrl: '/chabuilder/Build/chabuilder.loader.js',
+      dataUrl: '/chabuilder/Build/chabuilder.data',
+      frameworkUrl: '/chabuilder/Build/chabuilder.framework.js',
+      codeUrl: '/chabuilder/Build/chabuilder.wasm',
     });
 
   function ChangeSpecies(index?: number) {
