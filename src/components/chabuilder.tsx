@@ -52,11 +52,14 @@ export default function Chabuilder() {
       <div className='flex flex-col items-start'>
         <button onClick={() => changeSpecies()}>종족바꾸기</button>
         <button onClick={() => changeHair()}>머리바꾸기</button>
-        <input
-          type='color'
-          value={selectedColor}
-          onChange={handleColorChange}
-        />
+        <div className='flex gap-2'>
+          <label>머리색</label>
+          <input
+            type='color'
+            value={selectedColor}
+            onChange={handleColorChange}
+          />
+        </div>
       </div>
     </div>
   );
