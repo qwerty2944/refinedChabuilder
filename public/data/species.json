@@ -1,0 +1,23 @@
+[
+  { "value": 0, "name": "마족1" },
+  { "value": 1, "name": "요정1" },
+  { "value": 2, "name": "요정2" },
+  { "value": 3, "name": "인간1" },
+  { "value": 4, "name": "인간2" },
+  { "value": 5, "name": "인간3" },
+  { "value": 6, "name": "인간4" },
+  { "value": 7, "name": "인간5" },
+  { "value": 8, "name": "신요정1" },
+  { "value": 9, "name": "신요정2" },
+  { "value": 10, "name": "오크1" },
+  { "value": 11, "name": "오크2" },
+  { "value": 12, "name": "오크3" },
+  { "value": 13, "name": "오크4" },
+  { "value": 14, "name": "해골1" },
+  { "value": 15, "name": "좀비1" },
+  { "value": 16, "name": "좀비2" },
+  { "value": 17, "name": "좀비3" },
+  { "value": 18, "name": "좀비4" },
+  { "value": 19, "name": "좀비5" },
+  { "value": 20, "name": "좀비6" }
+]
