@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import './globals.css';
 import type { Metadata } from 'next';
+import Provider from '@/redux/provider';
 
 export const metadata: Metadata = {
   title: '냠냠굿',
@@ -14,9 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='ko'>
-      {/* body에 직접 폰트 스타일 적용 */}
-      <Header/>
-      <body className='font-neodunggeunmo lg:ml-60'>{children}</body>
+      <Provider>
+        <Header />
+        <body className='font-neodunggeunmo lg:ml-60'>{children}</body>
+      </Provider>
     </html>
   );
 }
